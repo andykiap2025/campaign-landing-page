@@ -23,7 +23,14 @@ Open <http://localhost:5173>
 
 ```bash
 npm run build
-npm run preview
+npm run preview   # local preview via Vite
+```
+
+For production-like local testing (matches what Railway runs):
+
+```bash
+npm run build
+npm run start     # serves dist/ via `serve` on $PORT (default 3000)
 ```
 
 ## Deploy to Railway
@@ -69,4 +76,4 @@ the paths in the `WEB_SHOTS` and `MOBILE_SHOTS` arrays at the top of
 
 ---
 
-© Andy Kiap · Port Moresby, PNG
+© Skyworks Systems · Port Moresby, PNG
